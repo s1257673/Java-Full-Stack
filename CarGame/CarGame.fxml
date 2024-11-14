@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" layoutX="1.0" prefHeight="363.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.CarGame.Controller">
+   <children>
+      <ImageView fx:id="road2" fitHeight="390.0" fitWidth="220.0" layoutX="192.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Road.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="road" fitHeight="390.0" fitWidth="220.0" layoutX="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Road.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myCar" fitHeight="71.0" fitWidth="29.0" layoutX="268.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car3" fitHeight="51.0" fitWidth="36.0" layoutX="269.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Car1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car5" fitHeight="131.0" fitWidth="36.0" layoutX="308.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car3.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car7" fitHeight="45.0" fitWidth="26.0" layoutX="361.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car4.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car1" fitHeight="45.0" fitWidth="29.0" layoutX="222.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car5.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car4" fitHeight="51.0" fitWidth="26.0" layoutX="269.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car4.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car6" fitHeight="51.0" fitWidth="29.0" layoutX="315.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car8" fitHeight="51.0" fitWidth="36.0" layoutX="358.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car2" fitHeight="50.0" fitWidth="36.0" layoutX="224.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Car2.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1b10eb" fontSmoothingType="LCD" layoutX="14.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score : ">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Label fx:id="score" layoutX="130.0" layoutY="106.0" text="0" textFill="#dd1024">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Text fill="#1b10eb" fontSmoothingType="LCD" layoutX="415.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max. Score : ">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Label fx:id="maxScore" layoutX="586.0" layoutY="107.0" text="0" textFill="#dd1024">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="remainTime" alignment="CENTER" contentDisplay="CENTER" layoutX="223.0" layoutY="91.0" opacity="0.56" prefHeight="128.0" prefWidth="162.0" textFill="#e60105">
+         <font>
+            <Font size="88.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gameOver" fitHeight="64.0" fitWidth="129.0" layoutX="238.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="#dd1212" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Press ESC to Resume or Exit" wrappingWidth="192.13671016693115">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#dd1212" layoutX="421.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Press alt + F4 to Exit" wrappingWidth="192.13671016693115">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
